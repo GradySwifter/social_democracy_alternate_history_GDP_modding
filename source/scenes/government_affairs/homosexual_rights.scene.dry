@@ -43,7 +43,7 @@ Voting together with the progressives in the KPD and DDP, we have reformed Parag
 @change_sex
 subtitle: We can create a legal process for individuals to change their sex, making their lives easier.
 unavailable-subtitle: We do not have majority support for this policy.
-view-if: sex_change == 0
+view-if: trans_rights == 0
 choose-if: progressive_coalition >= 50
 on-arrival: trans_rights = 1; homosexual_rights += 1; z_relation -= 5; kpd_relation += 4*(1-dissent); ddp_relation += 4*(1-dissent); coalition_dissent += 1 if (in_grand_coalition or in_weimar_coalition)
 
